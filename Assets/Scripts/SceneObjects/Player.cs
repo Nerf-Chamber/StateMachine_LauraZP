@@ -17,7 +17,7 @@ public class Player : Character, InputSystem_Actions.IPlayerActions
     private void OnEnable() => inputActions.Enable();
     private void OnDisable() => inputActions.Disable();
 
-    private void Update() 
+    private void FixedUpdate() 
     {
         _move.Move(moveDirection, speed);
         _rotation.Rotate(rotationDirection, rotationSpeed);
