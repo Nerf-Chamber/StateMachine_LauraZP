@@ -19,8 +19,8 @@ public class Player : Character, InputSystem_Actions.IPlayerActions
 
     private void FixedUpdate() 
     {
-        _move.Move(moveDirection, speed);
-        _rotation.Rotate(rotationDirection, rotationSpeed);
+        _move.Move(moveDirection);
+        _rotation.Rotate(rotationDirection);
     }
 
     // INTERFACE IMPLEMENTATION
@@ -31,5 +31,9 @@ public class Player : Character, InputSystem_Actions.IPlayerActions
         moveDirection = new Vector3(tempDirection.x, 0, tempDirection.y);
         if (context.performed)
             rotationDirection = new Vector3(tempDirection.x, 0, tempDirection.y);
+    }
+    public void OnAttack(InputAction.CallbackContext context)
+    {
+        // TODO
     }
 }
