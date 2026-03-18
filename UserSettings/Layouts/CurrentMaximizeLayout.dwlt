@@ -200,8 +200,8 @@ MonoBehaviour:
     y: 0
     width: 357
     height: 696
-  m_MinSize: {x: 201, y: 226}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -248,17 +248,12 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: []
+      m_SelectedIDs:
+      - m_Data: 47344
       m_LastClickedID:
-        m_Data: 0
+        m_Data: 47344
       m_ExpandedIDs:
-      - m_Data: -76556
-      - m_Data: -54850
-      - m_Data: -48240
-      - m_Data: -48238
-      - m_Data: -47110
       - m_Data: -1294
-      - m_Data: 47318
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -303,8 +298,8 @@ MonoBehaviour:
     y: 0
     width: 1109
     height: 696
-  m_MinSize: {x: 202, y: 226}
-  m_MaxSize: {x: 4002, y: 4026}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 2}
   m_Panes:
   - {fileID: 8}
@@ -837,9 +832,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.037752587, y: 0.7318224, z: -0.32469666}
+    m_Target: {x: 1.1481419, y: 1.6511414, z: -1.7669549}
     speed: 2
-    m_Value: {x: -0.037752587, y: 0.7318224, z: -0.32469666}
+    m_Value: {x: 1.1481419, y: 1.6511414, z: -1.7669549}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -885,13 +880,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Target: {x: 0.059162028, y: -0.9406969, z: 0.24461143, w: 0.22750962}
     speed: 2
-    m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    m_Value: {x: 0.059161846, y: -0.940694, z: 0.24461067, w: 0.22750892}
   m_Size:
-    m_Target: 5.985352
+    m_Target: 3.5724308
     speed: 2
-    m_Value: 5.985352
+    m_Value: 3.5724308
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1056,7 +1051,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Resources
+    - Assets
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1066,7 +1061,7 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Resources
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Usuari\Desktop\Lorax\PV\StateMachine
   m_LockTracker:
@@ -1075,12 +1070,12 @@ MonoBehaviour:
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs:
-    - m_Data: 47664
+    - m_Data: 47446
     m_LastClickedID:
-      m_Data: 47664
+      m_Data: 47446
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 47660
+    - m_Data: 47446
     - m_Data: 1000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -1114,8 +1109,7 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 47660
-    - m_Data: 1000000000
+    - m_Data: 47446
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1142,8 +1136,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: []
-    m_LastClickedInstanceID: 0
+    m_SelectedInstanceIDs:
+    - m_Data: 47344
+    m_LastClickedInstanceID: 47344
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs:
     - m_Data: 56700
@@ -1237,8 +1232,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 981
-  m_MinSize: {x: 276, y: 76}
-  m_MaxSize: {x: 4001, y: 4026}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
